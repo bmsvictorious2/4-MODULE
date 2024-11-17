@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tech Skill Vocational Institute</h1>
+        <h1>Test No 7</h1>
+        <div class="name-section">
+            <label for="studentName">Enter your name:</label>
+            <input style="height:40px; width: 180px;" type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+
+        <!-- Question 1 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>1. Which statement belong to Anomaly detection?</p>
+            <input type="checkbox" id="SetPrimarymetrictoaccuracy" value="Set Primary metric to accuracy.">
+            <label for="Set Primary metric to accuracy.">Forecasting housing prices based on historical data is an example of Anomaly detection.</label><br>
+            
+            <input type="checkbox" id="EnableExplainbestmodel" value="Enable Explain best model">
+            <label for="Enable Explain best model">Identify Suspecious sign-ins by looking for deviations for usual pattren is an example of Anomaly detection.</label>
+            
+        </div>
+        
+        <!-- Question 2 (Dropdown) -->
+        <div class="question">
+            <p>2.An automated chat to answer questions about refunds and exchange.</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="inclusiveness">Conversational AI</option>
+                <option value="reliability and safety">knowledge mining</option>
+                <option value="transparency">Anomaly detection</option>
+                
+            </select>
+        </div>
+          <!-- Question 3 (Dropdown) -->
+        
+          <div class="question">
+            <p>3. Implementing Processes to ensure that decision made by AI systems can be overridden by humans.</p>
+            <input type="radio" id="Computer" name="workloadAI" value="Computer vision">
+            <label for="Computervision">Reliability & Safety</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Machine Learning">
+            <label for="Machine Learning">Accountability</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Artificial Intelligence">
+            <label for="Artificial Intelligence">Transparency</label>
+        </div>
+        
+ <!-- Question 4 (Checkboxes) -->
+
+ <div class="question">
+    <p>4.You run a charity event that involves posting photos of people wearing sunglasses on Twitter.
+        You need to ensure that you only retweet photos that meet the following requirements:
+        ✑ Include one or more faces.
+        ✑ Contain at least one person wearing sunglasses.
+        What should you use to analyze the images??</p>
+    <input type="radio" id=" guiding" name="train" value="VALUE1">
+    <label for=" fairness">the Verify operation in the Face service.</label>
+    <BR></BR>
+    <input type="radio" id="guiding" name="train" value="VALUE2">
+    <label for="inclusiveness">the Detect operation in the Face service.</label>
+    <br>
+    <input type="radio" id="guiding" name="train" value="VALUE3">
+    <label for="accountability">the Describe Image operation in the Computer Vision service.</label>
+</div>
+
+<div class="question">
+    <p>5.Labelling is the process of tagging training data with known values?</p>
+    <select id="question5">
+        <option value="">--Select an answer--</option>
+        <option value="Privacy and security">Yes</option>
+        <option value="Reliability and safety">No</option>
+        
+        
+    </select>
+</div>
+<div class="question">
+    6.<p><img src="dataset.png" alt=""> </p>
+    <input type="radio" id="CNN" name="model" value="CNN">
+    <label for="CNN">Regression</label>
+    
+    <input type="radio" id="RNN" name="model" value="RNN">
+    <label for="RNN">Classification</label>
+    
+    
+</div>
+
+<div class="question">
+    <p>7. The ability to extract total & subtotal from a receipt is an example of?</p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="ObjectDetection">Custom Vision</option>
+        
+        <option value="OCR">Form Recognizer</option>
+    </select>
+</div>
+<div class="question">
+    <p>8. You are building a tool that will process images from retail stores and identify the products of competitors.
+        The solution will use a custom model.
+        Which Azure Cognitive Services service should you use??</p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="fairness">Custom Vision</option>
+        
+        <option value="inclusiveness">Computer Vision</option>
+    </select>
+</div>
+<div class="question">
+    <p>9. <img src="entity.jpg" alt=""> </p>
+    <input type="radio" id="CNN" name="AI" value="CNN">
+    <label for="CNN">Entity Recognition</label>
+    
+    <input type="radio" id="RNN" name="AI" value="RNN">
+    <label for="RNN">Key Phrase Extraction</label>
+    
+    
+</div>
+<div class="question">
+  <p>10.A validation set include the set of inputs example that will used to train the model?</p>
+    <input type="radio" id="Detect individual objects in an image" name="images" value="Detect individual objects in an image">
+    <label for="Detect individual objects in an image">Yes</label><BR></BR>
+    
+    <input type="radio" id="Assign a label to each pixel in the image" name="images" value="Assign a label to each pixel in the image">
+    <label for="Assign a label to each pixel in the image">No</label><BR></BR>
+   
+    
+</div>
+<div class="question">
+    <div class="question">
+        <p>11.You need to develop a mobile app for employees to scan and store their expenses while travelling.
+            Which type of computer vision should you use?</p>
+        <input type="radio" id="Building AI systems that require no human oversight" name="At" value="Building AI systems that require no human oversight">
+        <label for="Building AI systems that require no human oversight">object detection</label><br>
+        
+        <input type="radio" id="standards" name="At" value="standards">
+        <label for="standards">optical character recognition (OCR)</label>
+        
+</div>
+<div class="question">
+    <p>12: Which Computer Vision feature can you use to generate automatic captions for digital photographs?</p>
+      <input type="radio" id="Elevenlabs" name="image" value="Object detection">
+      <label for="Object detection">Recognize text</label><br><br>
+      
+      <input type="radio" id="Elevenlabs" name="image" value="OCR">
+      <label for="Elevenlabs">Identify the areas of interest.</label><br><br>
+      <input type="radio" id="Elevenlabs" name="image" value="Face detection">
+      <label for="Elevenlabs">Describe the images</label>
+      
+      
+  </div>
+  <div class="question">
+    <p>13. Which scenarios are examples of a conversational AI workload?</p>
+    <input type="radio" id="NO" name="Am" value="Voxel">
+    <label for="Voxel">a smart device in the home that responds to questions such as What will the weather be like today?</label><br>
+    
+    <input type="radio" id="Yes" name="Am" value="Pixel">
+    <label for="Pixel">assembly line machinery that autonomously inserts headlamps into cars</label>
+    
+    
+</div>
+<div class="question">
+    <p>14.In which two scenarios can you use the Form Recognizer service?Choose Two.</p>
+    <input type="checkbox" id="inclusiveness" value="inclusiveness">
+    <label for="inclusiveness">Extract the invoice number from an invoice.</label><br><br>
+    
+    <input type="checkbox" id="opinionatedness" value="opinionatedness">
+    <label for="opinionatedness">Translate a form from French to English.</label><br><br>
+    <input type="checkbox" id="reliability and safety" value="reliability and safety">
+    <label for="reliability and safety">Identify the retailer from a receipt.</label>
+    
+</div>
+<div class="question">
+    <p>15. You need to develop a web-based AI solution for a customer support system. Users must be able to interact with a
+        web app that will guide them to the best resource or answer?</p>
+    <input type="radio" id="NO" name="Angle" value="6">
+    <label for="6">Custom Vision</label><br>
+    
+    <input type="radio" id="Yes" name="Angle" value="4">
+    <label for="4">QnA Maker</label>
+    
+    
+</div>
+<div class="question">
+    <p>16:You have a knowledge base of frequently asked questions (FAQ).
+        You create a bot that uses the knowledge base to respond to customer requests.
+        You need to identify what the bot can perform without adding additional skills.
+        What should you identify?
+    </p>
+    <input type="radio" id="NO" name="Angl" value="6">
+    <label for="6">Register customer purchases.</label><br>
+    
+    <input type="radio" id="Yes" name="Angl" value="4">
+    <label for="4">Answer questions from multiple users simultaneously</label>
+    
+    
+</div>
+<button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
